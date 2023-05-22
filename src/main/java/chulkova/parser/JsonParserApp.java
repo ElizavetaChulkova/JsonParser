@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.List;
 
-public class App {
+public class JsonParserApp {
 
     public static ObjectMapper mapper = new ObjectMapper();
 
