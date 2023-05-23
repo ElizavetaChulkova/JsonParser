@@ -1,5 +1,5 @@
-##JSON parser
-###STACK
+## JSON parser
+### STACK
 Maven, Lombok, Jackson
 
 The Task is:
@@ -14,16 +14,16 @@ Two files are input as arguments to the program: tests.json and values.json
 Write a program that generates a report.json file with value fields filled in for 
 the tests.json structure based on values.json.
 
-###Example
-####Part of tests.json structure:
+### Example
+#### Part of tests.json structure:
 {"id": 122, "title": "Security test", "value": "", "values": 
 [{"id": 5321, "title": "Confidentiality", "value": ""}, 
 {"id": 5322, "title": "Integrity", "value": ""}]}
 
-####After filling in according to values.json:
+#### After filling in according to values.json:
 {"values": [{"id": 122, "value": "failed"}, {"id": 5321,"value": "passed"}, {"id": 5322,"value": "failed"}]}
 
-####It will look like this in the report.json file:
+#### It will look like this in the report.json file:
 {"id": 122, "title": "Security test", "value": "failed", "values": 
 [{"id": 5321, "title": "Confidentiality", "value": "passed"}, 
 {"id": 5322, "title": "Integrity", "value": "failed"}]}
