@@ -1,8 +1,7 @@
 ## JSON parser
-### STACK
-Maven, Lombok, Jackson
+### STACK Maven, Lombok, Jackson
 
-The Task is:
+#### The Task is:
 
 Two files are input as arguments to the program: tests.json and values.json 
 (there are examples of these files in the attachment to the task).
