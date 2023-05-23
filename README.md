@@ -7,6 +7,7 @@ Two files are input as arguments to the program: tests.json and values.json
 (there are examples of these files in the attachment to the task).
 
 • values.json contains test results with unique id's
+
 • tests.json contains a structure for building a report based on passed tests 
 (nesting may be greater than in the example).
 
